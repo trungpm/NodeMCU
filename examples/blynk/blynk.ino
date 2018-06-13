@@ -1,15 +1,20 @@
+//Cần cài đặt thêm các thư viện trong Arduino IDE: blynk, DHT, SimpleTimer
+
 #define BLYNK_PRINT Serial
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
-#include "DHT.h"
+#include "DHT.h" 
 #include <SimpleTimer.h>
 
+//Loại cảm biến và chân nhận dữ liệu
 #define DHTTYPE DHT11
 #define DHT_PIN D4
 
+//chuỗi Token khi đăng kí một Device trên ứng dụng Blynk
 char auth[] = "e9f72000659b438c9ead39d890f7312f";
 
+//tên và mật khẩu wifi
 char ssid[] = "Wifi PTC3";
 char pass[] = "246813579";
 
