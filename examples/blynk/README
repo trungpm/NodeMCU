@@ -1,2 +1,3 @@
 
-Chương trình Arduino chạy trên hardware Wemos D1 mini ESP8266, ứng dụng Blynk chạy trên điện thoại Android tạo giao diện để hiển thị Nhiệt độ, độ ẩm từ sensor DHT11 shield, điều khiển Relay. 
+Chương trình Arduino chạy trên hardware Wemos D1 mini ESP8266, ứng dụng Blynk chạy trên điện thoại Android tạo giao diện để hiển thị Nhiệt độ, độ ẩm từ sensor DHT11 shield, điều khiển Relay.  
+
